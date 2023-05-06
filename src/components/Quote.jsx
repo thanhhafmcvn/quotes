@@ -26,7 +26,7 @@ const Quote = () => {
         <h1 className="text-white text-center font-sans font-bold text-[50px] animate-fade w-100">
           {quoteData[0]?.content}
         </h1>
-        <div className={"text-white font-extralight text-[30px] mt-[40px]"}>
+        <div className="text-white font-extralight text-[30px] mt-[40px]">
           <h3 className={authorShown ? "opacity-1 cursor-pointer" : "opacity-0"} onClick={() => window.open(SEARCH_URL, '_blank')}>
             {quoteData[0]?.author}
           </h3>
